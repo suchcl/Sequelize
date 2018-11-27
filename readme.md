@@ -1,6 +1,6 @@
 ### 简介
 
-> [官网](http://docs.sequelizejs.com)
+> [官网 http://docs.sequelizejs.com](http://docs.sequelizejs.com)
 
 Sequelize是一个基于promise的node.js ORM。到现在为止，它支持了Postgres、mysql、SQLite和Microsoft SQL Server，它具有强大的事务支持、关联联系、读取和复制的多种功能。
 
