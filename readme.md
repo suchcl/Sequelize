@@ -64,3 +64,10 @@ node config/db.js
 如果执行结果如下，说明连接数据库成功：
 
 ![image](./images/测试连接结果.png)
+
+### 创建模型
+
+语法
+```javascript
+sequelize.define('name',{attributes},{options})
+```
