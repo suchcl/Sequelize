@@ -27,3 +27,15 @@ sequelize.authenticate().then(() => {
   .catch(err => {
     console.error('数据库连接失败', err);
   });
+
+var User = sequelize.define('user',{
+    username:Sequelize.STRING,
+    birthday: Sequelize.DATE
+});
+
+sequelize.sync().then(function(){
+    return User.create({
+        username:'Nicholas',
+        birthday:new Date(1992,10,09)
+    })
+});
